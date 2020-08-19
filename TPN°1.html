@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super AMD</title>
+    <link rel="stylesheet" href="CSS/TPN°1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="contenedor"> <!---CONTENEDOR GRID-->
+
+        <div class="header">
+            <div class="jumbotron jumbotron-fluid bg-primary text-light">
+                <div class="container">
+                <h1 class="display-4" style="font-family: Comic Sans MS, cursive, sans-serif">SUPERMERCADO CARACOL</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="ruta">
+            <div class="alert alert-info" role="alert">
+                Por favor seleccione aquí sus productos
+            </div>
+        </div > 
+
+        <div class= "compra">
+            <h4 style="font-family: Lucida Console, cursive, sans-serif">GÓNDOLA</h4> 
+        </div>
+
+        <div class= "carrito">
+            <h4 style="font-family: Lucida Console, cursive, sans-serif">CARRITO</h4> 
+        </div>
+
+        <div class= "tabla1">
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio unitario</th>
+                    <th scope="col">Cantidad Disponible</th>
+                    <th scope="col">Cantidad Carrito</th>
+                    <th scope="col">Agregar</th>
+                  </tr>
+                </thead>
+                <tbody id="tb1">
+                </tbody> 
+            </table>
+        </div>
+        
+        <div class= "tabla2">
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio unitario</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Sub-total</th>
+                    <th scope="col">Eliminar</th>
+                  </tr>
+                </thead>
+                <tbody id="tb2">  
+                </tbody>
+            </table>
+
+        </div>        
+
+        <div class= "total">
+            <button class="btn btn-success btn-custom" onclick="CompraTotal()">Finalizar Compra</button>
+        </div>
+    </div>
+
+
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="JAVASCRIPT/TPN1.js"></script>
+</body>
+</html>

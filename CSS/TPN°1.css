@@ -1,0 +1,74 @@
+.contenedor {
+    display:grid;
+    
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 0.8fr 0.3fr auto auto 0.5fr;
+
+    grid-template-areas: 
+    "header header"
+    "alert alert"
+    "compra carrito"
+    "tabla1 tabla2"
+    "agregar total";
+}
+
+.header { 
+    grid-area: header;
+    display: grid;
+    text-align: center;
+    padding: 0 ;
+}
+
+.ruta { 
+    grid-area: alert;
+    display: grid;
+
+}
+
+.compra {
+    grid-area: compra;
+    display: grid;
+    text-align: center;
+}
+
+.carrito {
+    grid-area: carrito;
+    display: grid;
+    text-align: center;
+}
+
+.tabla1 { 
+    grid-area: tabla1;
+    display: grid;
+    padding: 0 1%;
+    
+}
+
+.tabla2 { 
+    grid-area: tabla2;
+    display: grid;
+    padding: 0 1%;
+
+}
+
+.agregar {
+    grid-area: agregar;
+    display: grid;
+    border: 0px;
+    justify-content: center;
+    height: 3em;
+    
+}
+
+
+.total {
+    grid-area: total;
+    display: grid;
+    border: 0px;
+    justify-content: center;
+    height: 3em;
+    
+}
+
+
+
